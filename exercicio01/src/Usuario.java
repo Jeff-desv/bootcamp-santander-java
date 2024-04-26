@@ -13,6 +13,16 @@ public class Usuario {
 
         smartTv.desligada();
         System.out.println("Tv desligada " + smartTv.Ligada);
+
+        smartTv.diminuiVolume();
+        smartTv.diminuiVolume();
+        smartTv.diminuiVolume();
+        smartTv.aumentaVolume();
+
+        System.out.println("Canal Atual : " + smartTv.canal);
+
+        smartTv.mudarCanal(13);
+        System.out.println("Canal Atual : " + smartTv.canal);
     }
 
 }
