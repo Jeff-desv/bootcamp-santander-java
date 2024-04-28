@@ -29,7 +29,7 @@ public class App {
             este cenário é denominado ESTRUTURA CONDICIONALS COMPOSTA. Vejamos
             o Exemplo abbaixo:
 
-                         INICIO
+                           INICIO
          *                   |
          *                   |
          *                   |
@@ -41,5 +41,30 @@ public class App {
          * IMPRIME <---NÃO__________SIM ---> IMPRIME
          * REPROVADO                         APROVADO
           */
+
+        //CONDICIONAL ENCADEADA
+
+        /*
+         * Em um controle de fluxo condicional, nem sempre nos
+         * limitamos ao SE(IF) e SENÃO(ELSE), poderemos ter uma 
+         * terceira, quarta e ou inúmeras condições.
+         * 
+         *         RESULTADO <----------INÍCIO
+         *         ESCOLAR
+         *            |
+         *            |    SIM
+         *           NOTA -----> IMPRIME
+         *            >=7?       APROVADO
+         *            |
+         *            | NÃO
+         *            |
+         *           NOTA     SIM
+         *        >=5 E 7=< ------->  IMPRIME
+         *            |               RECUPERAÇÃO
+         *            |
+         *            | NÃO
+         *         IMPRIME 
+         *        REPROVADO     
+         */
     }
 }
