@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="Estrururas-de-Repetição/src"/>
+	<classpathentry kind="src" path="Estruturas-Condicionais/src"/>
+	<classpathentry kind="src" path="exercicio01/src"/>
+	<classpathentry kind="src" path="java-anatomia-clases/src"/>
+	<classpathentry kind="src" path="metodos/src"/>
+	<classpathentry kind="src" path="Tipos-e-Variáveis/src"/>
+	<classpathentry kind="src" path="TRY-CATCH/src"/>
+	<classpathentry kind="output" path="Estrururas-de-Repetição/bin"/>
+</classpath>
