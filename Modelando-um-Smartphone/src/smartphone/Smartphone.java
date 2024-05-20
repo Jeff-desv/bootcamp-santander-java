@@ -2,7 +2,7 @@ package smartphone;
 
 public class Smartphone {
 
-    public void ligar(){
+    public void desbloquearAparelho(){
         System.out.println("Ligando Smartphone");
     }
 
@@ -18,5 +18,15 @@ public class Smartphone {
     }
     public void selecionarMusica(String musica){
         System.out.println("Selecione uma Musica para Reproduzir");
+    }
+
+    public void ligar(){
+        System.out.println("Ligando para o Número 9875-5542");
+    }
+    public void atender(){
+        System.out.println("Atender o número 9875-5542");
+    }
+    public void iniciarCorreioVoz(){
+        System.out.println("Iniciando Correio de Voz");
     }
 }

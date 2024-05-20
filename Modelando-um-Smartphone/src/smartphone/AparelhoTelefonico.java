@@ -6,7 +6,7 @@ public class AparelhoTelefonico {
         
         Smartphone cell = new Smartphone();
         System.out.println();
-        cell.ligar();
+        cell.desbloquearAparelho();
         System.out.println();
 
         cell.selecionarReprodutorMusica();
@@ -15,6 +15,10 @@ public class AparelhoTelefonico {
         cell.tocar();
         cell.pausar();
         System.out.println();
+
+        cell.atender();
+        cell.ligar();
+        cell.iniciarCorreioVoz();
         
     }
 
