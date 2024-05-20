@@ -19,6 +19,13 @@ public class AparelhoTelefonico {
         cell.atender();
         cell.ligar();
         cell.iniciarCorreioVoz();
+        System.out.println();
+
+        cell.abrindoNavegador();
+        cell.exibirPagina();
+        cell.adicionarNovaAba();
+        cell.atualizarPagina();
+        System.out.println();
         
     }
 

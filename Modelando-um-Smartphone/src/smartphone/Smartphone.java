@@ -29,4 +29,17 @@ public class Smartphone {
     public void iniciarCorreioVoz(){
         System.out.println("Iniciando Correio de Voz");
     }
+
+    public void abrindoNavegador(){
+        System.out.println("abrir navegador de internet");
+    }
+    public void exibirPagina(){
+        System.out.println("Exibindo página do Google");
+    }
+    public void adicionarNovaAba(){
+        System.out.println("Abrindo outra aba no navegador");
+    }
+    public void atualizarPagina(){
+        System.out.println("Atualizando Pagina");
+    }
 }
