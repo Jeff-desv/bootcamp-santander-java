@@ -13,7 +13,7 @@ public class Tarefa {
 
     //Criando o método getter
     public String getDescricao(){
-        return descricao;
+        return descricao;//Retornará a descrição
     }
     
 }
