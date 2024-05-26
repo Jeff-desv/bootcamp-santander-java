@@ -3,12 +3,12 @@ package pesquisa;
 import java.util.ArrayList;
 import java.util.List;
 
-public class catalagoLivros {
+public class catalogoLivros {
     
     //Criando Atributos
     private List<Livro> livroList;
 
-    public catalagoLivros(){this.livroList = new ArrayList<>();}
+    public catalogoLivros(){this.livroList = new ArrayList<>();}
 
     //Criando o método adcionarLivros
     public void adcionarLivro(String titulo, String autor, int anoPublicacao){
