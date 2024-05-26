@@ -15,5 +15,10 @@ public class Tarefa {
     public String getDescricao(){
         return descricao;//Retornará a descrição
     }
+
+    //Sobrescrevendo o Método toString para poder aparecer nossa descrição da Tarefa 
+    public String toString(){
+        return descricao;
+    }
     
 }

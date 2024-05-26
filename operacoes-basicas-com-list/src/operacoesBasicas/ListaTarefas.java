@@ -46,10 +46,24 @@ public class ListaTarefas {
         System.out.println("O numero Total de elementos na lista é: " + listaTarefas.obterNumeroTotalTarefas());
         System.out.println();
 
+        //Testando o Método Adcionando Tarefa
         listaTarefas.adcionarTarefa("Tarefa 1");
+        listaTarefas.adcionarTarefa("Tarefa 2");
+        listaTarefas.adcionarTarefa("Tarefa 3");
         System.out.println("O numero Total de elementos na lista é: " + listaTarefas.obterNumeroTotalTarefas());
         System.out.println();
 
-        listaTarefas.adcionarTarefa("Tarefa 1");
+        //Testando o Método Remover Tarefa
+        System.out.println("Removemos 1 Tarefa e ficou");
+        listaTarefas.removeTarefa("Tarefa 2");
+        System.out.println("O numero Total de elementos na lista é: " + listaTarefas.obterNumeroTotalTarefas());
+        System.out.println();
+
+        //Testando o Método Obter Descrição
+        System.out.println("Essa é a nossa Descrição das Tarefas");
+        listaTarefas.obterDescricoesTarefas();
+
+
+        System.out.println();
     }
 }
