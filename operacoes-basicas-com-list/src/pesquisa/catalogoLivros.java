@@ -3,12 +3,12 @@ package pesquisa;
 import java.util.ArrayList;
 import java.util.List;
 
-public class catalogoLivros {
+public class CatalogoLivros {
     
     //Criando Atributos
     private List<Livro> livroList;
 
-    public catalogoLivros(){this.livroList = new ArrayList<>();}
+    public CatalogoLivros(){this.livroList = new ArrayList<>();}
 
     //Criando o método adcionarLivros
     public void adcionarLivro(String titulo, String autor, int anoPublicacao){
@@ -54,5 +54,20 @@ public class catalogoLivros {
             }
         }
         return livroPorTitulo;
+    }
+
+    public static void main(String[] args) {
+        CatalogoLivros catalogoLivros = new CatalogoLivros();
+        //Adcionando Livros
+        
+        catalogoLivros.adcionarLivro("Livro 1", "Autor 1", 2019);
+        catalogoLivros.adcionarLivro("Livro 2", "Autor 2", 2020);
+        catalogoLivros.adcionarLivro("Livro 3", "Autor 3", 2021);
+        catalogoLivros.adcionarLivro("Livro 4", "Autor 4", 2022);
+        catalogoLivros.adcionarLivro("Livro 5", "Autor 5", 2023);
+        catalogoLivros.adcionarLivro("Livro 6", "Autor 6", 2024);
+
+        System.out.println(catalogoLivros.pesquisarPorAutor("Autor 2"));
+
     }
 }
