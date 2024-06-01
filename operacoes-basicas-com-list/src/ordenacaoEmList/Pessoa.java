@@ -38,8 +38,8 @@ public class Pessoa implements Comparable <Pessoa> {
     public String toString(){
         return "Pessoa { " + 
         "nome '" + nome + '\'' + 
-        ", idade" + idade + 
-        ", altura" + altura + 
+        ", idade " + idade + 
+        ", altura " + altura + 
         '}';
     }
 }
