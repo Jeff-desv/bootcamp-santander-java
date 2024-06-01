@@ -75,6 +75,8 @@ public class CatalogoLivros {
         //Pesquisar por Intervalo de Ano
         System.out.println();
         System.out.println(catalogoLivros.pesquisarPorIntervalosAnos(2020, 2022));
+        System.out.println();
+
 
 
     }
