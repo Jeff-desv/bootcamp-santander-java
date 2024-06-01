@@ -1,5 +1,7 @@
 package Pesquisa;
 
+import java.util.Objects;
+
 public class Contato {
     
     //Criando Atributos 
@@ -19,6 +21,22 @@ public class Contato {
     }
     public int getNumero(){
         return numero;
+    }
+
+    public void setNumero(int numero){
+        this.numero = numero;
+    }
+
+    //Utilizando o Equals e HashCode para verificação dos numeros
+    //utilizaremos para comparar os numeros de celular
+    public boolean equals(Object o){
+        if (this == o) return true;
+        if(!(o instanceof Contato contato)) return false;
+        return Objects.equals(getNome(), contato.getNome());
+    }
+
+    public int hasCode(){
+        return Objects.hashCode(getNome());
     }
 
     //Criando o Método toString
