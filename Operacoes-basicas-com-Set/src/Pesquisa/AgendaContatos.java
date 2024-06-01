@@ -45,4 +45,19 @@ public class AgendaContatos {
         }
         return atualizarNumContato(nome, novoNumero);
     }
+
+    //Testando nosso Sistema
+    public static void main(String[] args) {
+        AgendaContatos agendaContatos = new AgendaContatos();
+
+        agendaContatos.exibirContatos();
+        System.out.println();
+
+        agendaContatos.adicionarContato("Pedro", 23419999);
+        agendaContatos.adicionarContato("Ana", 23415969);
+        agendaContatos.adicionarContato("Paulo", 22419899);
+
+        agendaContatos.exibirContatos();
+        System.out.println();
+    }
 }
