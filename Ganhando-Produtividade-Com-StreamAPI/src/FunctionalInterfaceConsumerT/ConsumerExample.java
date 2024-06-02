@@ -26,12 +26,10 @@ public class ConsumerExample {
         };
 
         System.out.println();
+        //Utilizando o LAMBDA
         //Usar o Consumer para imprimir números pares no Stream
-        numeros.stream().forEach( n -> {
-            if(n % 2 == 0){
-                System.out.println(n);
-            }
-         }
-        );
+        numeros.stream()
+            .filter(n -> n % 2 == 0)
+            .forEach(System.out::println);// esses :: significa Referece Metod
     }
 }
