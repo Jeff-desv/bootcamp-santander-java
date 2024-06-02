@@ -27,8 +27,11 @@ public class ConsumerExample {
 
         System.out.println();
         //Usar o Consumer para imprimir números pares no Stream
-        numeros.stream().forEach(imprimirNumerosPar);
-
-        System.out.println();
+        numeros.stream().forEach( n -> {
+            if(n % 2 == 0){
+                System.out.println(n);
+            }
+         }
+        );
     }
 }
