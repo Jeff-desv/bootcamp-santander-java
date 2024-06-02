@@ -26,7 +26,7 @@ public class SupplierExample {
         .collect(Collectors.toList());
 
     //Imprimir as Saudações geradas
-    listaSaudacoes.forEach(s -> System.out.println(s));
+    listaSaudacoes.forEach(System.out::println);
         
     }
 }
